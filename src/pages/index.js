@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import data from '/home/bugscoder/linktree-clone/data.json'
+import data from 'data.json'
 import {BsSpotify,BsInstagram,BsGithub,BsTwitter} from 'react-icons/bs'
 function LinkCard({href,title,image}){
   return (
