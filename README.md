@@ -49,7 +49,7 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see your Linker in action.
 
-File structure of concern
+File structure which contains the components and CSS.
 ```
 src/
 ┣ assets/
@@ -64,3 +64,18 @@ src/
 ┗ styles/
   ┗ globals.css
 ```
+Make changes in the `data.json` file which contains the links to all your profiles. Finally if you want to add more links then follow the pattern as metioned in the `data.json` file. And do not forget to import the icons if you are adding more social links.
+
+If you like the project please give it a star.
+
+---
+
+## License
+
+MIT
+
+
+
+> GitHub [@singharyan1007](https://github.com/singharyan1007) &nbsp;&middot;&nbsp;
+> Twitter [@singharyan1007](https://twitter.com/singharyan1007)&nbsp;&middot;&nbsp;
+> LinkedIn [@singharyan1007](https://www.linkedin.com/in/aryan-singh1007/)
