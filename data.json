@@ -1,0 +1,39 @@
+{
+    "name":"Aryan Singh Suryavanshi",
+    "about":"Welcome to my page",
+    "avatar":"https://res.cloudinary.com/dm0gb4atv/image/upload/v1682135796/me_bbdcot.jpg",
+    "links":[
+       {
+        "title":"My personal site (still under construction)",
+        "href":"https://bugscoder.pages.dev/"
+       },
+       {
+        "title":"Leetcode profile",
+        "href":"https://leetcode.com/Aryan1007/"
+       },
+       {
+        "title":"Hashnode",
+        "href":"https://hashnode.com/@Aryan1007"
+       },
+       {
+        "title":"Dev.to",
+        "href":"https://dev.to/singharyan1007"
+       }
+       
+    ],
+    "socials":[
+        {
+            "title":"Twitter",
+            "href":"https://twitter.com/singharyan1007"
+        },
+        {
+            "title":"Github",
+            "href":"https://github.com/singharyan1007"
+        },
+        {
+            "title":"Instagram",
+            "href":""
+        }
+
+    ]
+}
