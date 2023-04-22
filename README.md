@@ -1,8 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+<a href="https://linker.pages.dev">
+ 
+  <h1 align="center">Linker</h1>
+</a>
+ 
+<p align="center">
+  An effortlessly simple link sharing app that lets you share all your links though a single page.
+</p>
 
-First, run the development server:
+![](./src/assets/Linkerdemo.png)
+
+This is a dead simple link sharing application built using **NextJS** and **TailwindCSS**. This project aims to provide a starter template for an SPA to share all your links at one place.
+
+I built it because I wanted a simple application to hold all my links so that I can share it to a potential recruiter or anyone in general easily. It had to be personalised and minimalistic too. 
+
+Well using this as a template can be opiniated. Ostensibly, anyone could use an application like Linktree but creating something of my own felt more in my control. And also avoiding the troubles of sign up and login and tracing of data.
+
+---
+## Tech Stack
+
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [React-icons](https://react-icons.github.io/react-icons/)
+
+## Development
+
+First, clone the repository.
+
+```bash  
+git clone git@github.com:singharyan1007/linker.git
+```
+
+Then install the dependencies.
+
+```bash
+npm install
+```
+
+Finally, run the development server.
 
 ```bash
 npm run dev
@@ -12,27 +47,20 @@ yarn dev
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see your Linker in action.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+File structure of concern
+```
+src/
+┣ assets/
+┃ ┗ Linkerdemo.png
+┣ components/
+┣ pages/
+┃ ┣ api/
+┃ ┃ ┗ hello.js
+┃ ┣ _app.js
+┃ ┣ _document.js
+┃ ┗ index.js
+┗ styles/
+  ┗ globals.css
+```

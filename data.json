@@ -4,12 +4,15 @@
     "avatar":"https://res.cloudinary.com/dm0gb4atv/image/upload/v1682135796/me_bbdcot.jpg",
     "links":[
        {
-        "title":"My personal site (still under construction)",
-        "href":"https://bugscoder.pages.dev/"
+        "title":"My personal site",
+        "href":"https://bugscoder.pages.dev/",
+        "image":"https://res.cloudinary.com/dm0gb4atv/image/upload/v1682135796/me_bbdcot.jpg"
        },
        {
         "title":"Leetcode profile",
         "href":"https://leetcode.com/Aryan1007/"
+        
+        
        },
        {
         "title":"Hashnode",
@@ -32,7 +35,11 @@
         },
         {
             "title":"Instagram",
-            "href":""
+            "href":"https://www.instagram.com/singharyan_1007/"
+        },
+        {
+            "title":"Spotify",
+            "href":"https://open.spotify.com/user/3p9k21vrwfqb2gvqw39hbrviv"
         }
 
     ]

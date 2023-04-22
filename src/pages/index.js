@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import data from '/home/bugscoder/linktree-clone/data.json'
-
+import {BsSpotify,BsInstagram,BsGithub,BsTwitter} from 'react-icons/bs'
 function LinkCard({href,title,image}){
   return (
     <a
@@ -28,6 +28,11 @@ function LinkCard({href,title,image}){
     </a>
   )
 }
+
+
+
+
+
 export default function Home() {
   return (
     <main className='p-10 '>
@@ -40,11 +45,33 @@ export default function Home() {
     width={96}
     height={96}
     />
-    <h1 className='font-semibold text-xl mt-4 font-mono'>{data.name}</h1>
+    <h1 className='font-semibold text-xl mt-4 font-mono '>{data.name}</h1>
     <p className='text-gray-500 pb-4'>{data.about}</p>
     {data.links.map((link) => (
         <LinkCard key={link.href} {...link} />
       ))}
+      <div className="flex items-center gap-4 mt-8 text-white">
+     {data.socials.map((social) => (
+          <a
+            aria-label={`${social.title} link`}
+            key={social.href}
+            href={social.href}
+            target="_blank"
+            rel="noopener noreferrer"
+            className='rounded-2xl bg-transparent hover:bg-gray-700 p-2'
+          >
+            {social.href.includes('twitter') ? (
+              <BsTwitter className='text-3xl' />
+            ) 
+            : social.href.includes('github') ? (
+              <BsGithub className='text-3xl' />
+            ) 
+            : social.href.includes('instagram')?(<BsInstagram className='text-3xl'/>)
+            :social.href.includes('spotify')?(<BsSpotify className='text-3xl'/>)
+            :null }
+          </a>
+        ))}
+      </div>
 
    </div>
     </main>
